@@ -1134,6 +1134,6 @@ fuck.close()
                                                     cp.write(uid+ " | " +pass5+ "\n")
                                                     cp.close()
                                                     cps.append(uid+pass5)
-                            
+                           
                     
-			
+		
